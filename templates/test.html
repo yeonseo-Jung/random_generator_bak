@@ -1,0 +1,28 @@
+{% load static %}
+<!doctype html>
+
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <!-- <link rel="img" href="{% static 'images/displot.png' %}" type="image/png" sizes="any"> -->
+    </head>
+    <body>
+        <img src="{% static 'images/displot.png' %}" alt="displot">
+        <!-- <img src="{% static 'images/kdeplot.png' %}" alt="kdeplot"> -->
+
+        <table border="1">
+            <th>테이블</th>
+            <th>만들기</th>
+            <tr><!-- 첫번째 줄 시작 -->
+                <td>첫번째 칸</td>
+                <td>두번째 칸</td>
+            </tr><!-- 첫번째 줄 끝 -->
+            <tr><!-- 두번째 줄 시작 -->
+                <td>첫번째 칸</td>
+                <td>두번째 칸</td>
+            </tr><!-- 두번째 줄 끝 -->
+        </table>
+
+
+    </body>
+</html>
